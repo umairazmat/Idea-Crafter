@@ -1,5 +1,7 @@
 # Idea Crafter - AI-Powered Idea Generator
 
+<img src="/public/Main Logo.jpg" >
+
 ## Description
 
 Idea Crafter is a web application that generates unique business ideas based on user input, leveraging OpenAI's GPT model. Users can specify an industry, problems they want to solve, desired impacts, and skills they wish to learn.
