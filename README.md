@@ -13,32 +13,48 @@ Idea Crafter is a web application that generates unique business ideas based on 
 
 ### Installation
 
-1. Clone the repository:
+## Clone the repository:
 
-   ```bash
-   git clone https://github.com/umairazmat/Idea-Crafter
-   cd idea-crafter
-   ```
+```bash
+git clone https://github.com/umairazmat/Idea-Crafter
+cd idea-crafter
+```
 
-Set up a virtual environment:
-For Windows:
+## Set up a virtual environment:
 
-## .\idea-crafter\Scripts\activate
+## For Windows:
 
-For Mac/Linux:
+```bash
+.\idea-crafter\Scripts\activate
+```
 
-## source idea-crafter/bin/activate
+## For Mac/Linux:
 
-Install the required packages:
+```bash
+source idea-crafter/bin/activate
+```
 
-## pip install -r requirements.txt
+## Install the required packages:
 
-Create a .env file in the root directory with the following content:
+```bash
+pip install -r requirements.txt
+```
+
+## Create a .env file in the root directory with the following content:
+
+```bash
 OPENAI_API_KEY=your_actual_api_key
 OPENAI_API_BASE=
+```
 
-Run the application:
+## Run the application:
 
-## streamlit run .\proejct\app.py
+```bash
+streamlit run .\proejct\app.py
+```
 
-## if script not run : Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+## if script not run :
+
+```bash
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
