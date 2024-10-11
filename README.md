@@ -50,7 +50,7 @@ OPENAI_API_BASE=
 ## Run the application:
 
 ```bash
-streamlit run .\proejct\app.py
+streamlit run .\project\app.py
 ```
 
 ## if script not run :
