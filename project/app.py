@@ -4,7 +4,15 @@ from industries import industries
 
 # Streamlit app
 def main():
-    st.title("Idea Crafter - AI-Powered Idea Generator")
+   # Create a two-column layout for logo and title
+    col1, col2 = st.columns([2, 4])  # Adjust column widths as needed
+    with col1:
+        st.image("public/Main Logo.jpg", width=200)  # Display the logo
+
+    with col2:
+        st.title("Idea Crafter")
+        st.subheader("Think. Craft. Create.")  
+        st.write("A tool to generate unique ideas for your projects.")
 
     # Initialize session state
     if 'step' not in st.session_state:
