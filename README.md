@@ -17,10 +17,15 @@ Idea Crafter is a web application that generates unique business ideas based on 
 
 ```bash
 git clone https://github.com/umairazmat/Idea-Crafter
-cd idea-crafter
+cd Idea-Crafter
 ```
 
 ## Set up a virtual environment:
+
+```bash
+python -m venv idea-crafter
+.\idea-crafter\Scripts\activate
+```
 
 ## For Windows:
 
